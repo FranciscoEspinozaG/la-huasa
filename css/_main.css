@@ -1,0 +1,44 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.upper {
+  text-transform: uppercase !important; }
+
+.nav ul li {
+  color: #8aa15e !important; }
+
+.destacar {
+  border: 1px solid red;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.menu {
+  height: 196px; }
+
+/*# sourceMappingURL=_main.css.map */

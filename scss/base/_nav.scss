@@ -1,0 +1,41 @@
+#menu{
+    height: auto;
+    padding: 20px 0px;
+    z-index: 2;
+}
+
+#menu img{
+    height: 35px;
+}
+
+nav li a{
+    font-size: calc( .5vw + 6px);
+    font-weight: lighter;
+    text-decoration: none;
+    transition: .3s ease all;
+    color: $brand-second-color !important;
+    &:hover{
+        text-decoration: none !important;
+        color: $brand-second-color;
+        opacity: .6;
+    }
+}
+
+.menu-scroll{
+    height: 96px !important;
+}
+
+.bg-alpha{
+    background: rgba($color: #ffffff, $alpha: .8);
+    transition: .3s ease all;
+    &:hover{
+        background: rgba($color: #ffffff, $alpha: 1.0);
+        box-shadow: rgba($color: #000000, $alpha: .3) 0px 5px 25px;
+    }
+}
+
+.btn-verde{
+    background: none !important;
+    border: 1px solid $brand-primary-color !important;
+    color: $brand-primary-color;
+}
