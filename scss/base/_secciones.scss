@@ -66,11 +66,25 @@
     }
 }
 
+#inputsFormulario{
+    transition: .6s ease all;
+}
+
+.esconde-formulario{
+    position: relative;
+    margin-right: -100%;
+    transition: .3s ease all;
+}
+
+.tituloContacto{
+    cursor: pointer;
+}
+
 .rotar-90{
     transform: rotate(90deg) !important;
 }
 
-input[type=text]{
+input{
     border: none !important;
     border-bottom: 1px solid #e3e3e3!important;
     width: 100%;

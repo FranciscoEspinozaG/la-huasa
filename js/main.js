@@ -22,6 +22,10 @@ $(function() {
     var posicion = $('#plantas').offset();
     // console.log(posicion);
 
+    $('.tituloContacto').on('click', function(){
+        $('#inputsFormulario').toggleClass('esconde-formulario')
+    });
+
     $('.owl-galeria').owlCarousel({
         loop:true,
         autoplay:true,
