@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i,800,800i&display=swap');
+
+body{
+    font-family: $primary-font !important;
+}
+
+.upper{
+    text-transform: uppercase !important;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.regular{
+    font-weight: normal;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.text-verde{
+    color: $brand-primary-color !important;
+}
+
+.text-light-gray{
+    color: #949494;
+}
+
+.legal{
+    font-size: smaller !important;
+}
+
+section h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    @include MQ(M){
+        font-size: 20px;
+        letter-spacing: 6px;
+    }
+}
+
+// PROYECTO
+
+.num-dorm{
+    font-size: 1.3rem;
+    @include MQ(M){
+        font-size: 2.5rem;
+    }
+}
+
+.text-item-proyecto{
+    font-size: 1.3rem;
+    @include MQ(M){
+        font-size: 1.8rem;
+    }
+}
+
+// PLANTAS
+
+#texto-plantas{
+    @include MQ(M){
+        margin-top: 10px !important;
+        margin-bottom: 100px !important;
+    }
+}
+
+.que-planta{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0px !important;
+}
+
+.punto{
+    font-size: 25px;
+    bottom: 0px;
+    position: relative;
+}
+
+// IFRAME
+
+.iframeSize{
+    font-size: 20px !important;
+}
