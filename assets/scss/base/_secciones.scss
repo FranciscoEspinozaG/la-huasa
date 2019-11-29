@@ -68,11 +68,13 @@
 
 #inputsFormulario{
     transition: .6s ease all;
+    position: absolute;
+    right:55px;
 }
 
 .esconde-formulario{
     position: relative;
-    margin-right: -100%;
+    margin-right: -200%;
     transition: .3s ease all;
 }
 
@@ -84,19 +86,31 @@
     transform: rotate(90deg) !important;
 }
 
+label{
+    font-size: smaller;
+}
+
 input{
     border: none !important;
     border-bottom: 1px solid #e3e3e3!important;
     width: 100%;
     height: calc(60% / 5);
+    font-size: smaller;
+    margin: 5px auto 0px auto !important;
 }
 
 textarea{
-    border: none !important;
-    border-bottom: 1px solid #e3e3e3!important;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3 !important;
     width: 100%;
     height: calc(60% / 5);
     resize: none !important;
+    padding: 2px 5px;
+}
+
+.btn-enviar{
+    font-size: smaller;
+    margin: 10px auto 0px auto !important;
 }
 
 // CONTENIDO PROYECTO

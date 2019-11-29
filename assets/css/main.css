@@ -245,11 +245,13 @@ nav li a {
 #inputsFormulario {
   -webkit-transition: .6s ease all;
   -o-transition: .6s ease all;
-  transition: .6s ease all; }
+  transition: .6s ease all;
+  position: absolute;
+  right: 55px; }
 
 .esconde-formulario {
   position: relative;
-  margin-right: -100%;
+  margin-right: -200%;
   -webkit-transition: .3s ease all;
   -o-transition: .3s ease all;
   transition: .3s ease all; }
@@ -262,18 +264,28 @@ nav li a {
   -ms-transform: rotate(90deg) !important;
   transform: rotate(90deg) !important; }
 
+label {
+  font-size: smaller; }
+
 input {
   border: none !important;
   border-bottom: 1px solid #e3e3e3 !important;
   width: 100%;
-  height: calc(60% / 5); }
+  height: calc(60% / 5);
+  font-size: smaller;
+  margin: 5px auto 0px auto !important; }
 
 textarea {
-  border: none !important;
-  border-bottom: 1px solid #e3e3e3 !important;
+  border-radius: 5px;
+  border: 1px solid #e3e3e3 !important;
   width: 100%;
   height: calc(60% / 5);
-  resize: none !important; }
+  resize: none !important;
+  padding: 2px 5px; }
+
+.btn-enviar {
+  font-size: smaller;
+  margin: 10px auto 0px auto !important; }
 
 #proyecto {
   background: #3c3c3b; }

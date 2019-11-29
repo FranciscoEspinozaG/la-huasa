@@ -38,17 +38,18 @@
     <div id="inputsFormulario" class="col bg-white p-3 d-flex align-content-around flex-wrap esconde-formulario shadow">
         <input type="text" class="w-100 mx-auto" placeholder="Nombre">
         <input type="text" class="w-100 mx-auto" placeholder="Apellido">
+        <input type="text" class="w-100 mx-auto" placeholder="Rut">
         <input type="text" class="w-100 mx-auto" placeholder="Teléfono">
         <input type="email" class="w-100 mx-auto" placeholder="Email">
         <label for="mensajeContacto">Mensaje</label>
         <textarea name="mensajeContacto" id="mensajeContacto" cols="30" rows="1"></textarea>
-        <button class="btn text-white bg-dark rounded mx-auto mt-1">Enviar</button>
+        <button class="btn text-white bg-dark rounded mx-auto mt-1 btn-enviar">Enviar</button>
         <?php echo do_shortcode('[contact-form-7 id="55" title="Formulario de contacto"]'); ?>
     </div>
     <div class="d-flex flex-column align-items-start text-center p-0 col-2 bg-white shadow">
-        <p style="transform: rotate(90deg);margin-left: -10px;" class="tituloContacto light upper py-5 text-center"><span class="">Contacto</span></p>
-        <a href="https://wa.me/56940020856" class="text-white my-1 p-3 w-100 bg-verde" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <p style="transform: rotate(-90deg);margin-left: -25px;" class="tituloContacto light upper py-5 text-center mt-3">Contáctanos</p>
         <a href="mailto:parquelahuasa@ileben.cl" class="text-white my-1 w-100 bg-verde" target="_blank"><i class="p-3 far fa-envelope"></i></a>
+        <a href="https://wa.me/56940020856" class="text-white my-1 p-3 w-100 bg-verde" target="_blank"><i class="fab fa-whatsapp"></i></a>
     </div>
 </div>
 <body>
@@ -93,7 +94,7 @@
                 </div>
                 <div class="col-6 col-md d-flex flex-column m-md-1 text-center borde-proyecto">
                     <p class="text-item-proyecto upper text-white m-0">Desde</p>
-                    <p class="text-item-proyecto m-0 upper light text-verde">uf 13.690<span class="astericos">*</span></p>
+                    <p class="text-item-proyecto m-0 upper light text-verde">uf 13.000<span class="astericos">*</span></p>
                 </div>
                 <div class="col-6 col-md d-flex flex-column m-md-1 text-center borde-proyecto">
                     <p class="text-item-proyecto upper text-white m-0">Hasta</p>
@@ -161,7 +162,7 @@
     </section>
     <section id="plantas" class="p-5 d-flex flex-column align-items-center justify-content-center">
         <div class="container d-flex flex-column my-5">
-            <h2 class="upper light text-center w-100">Elije tu próximo departamento</h2>
+            <h2 class="upper light text-center w-100">Elige tu próximo departamento</h2>
             <p id="texto-proyecto" class="light text-center w-100">
                 Últimos departamentos disponibles
             </p>
