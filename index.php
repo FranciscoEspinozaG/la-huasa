@@ -36,14 +36,14 @@
 ?>
 <div id="formulario" class="d-flex flex-wrap justify-content-end p-0">
     <div id="inputsFormulario" class="col bg-white p-3 d-flex align-content-around flex-wrap esconde-formulario shadow">
-        <input type="text" class="w-100 mx-auto" placeholder="Nombre">
-        <input type="text" class="w-100 mx-auto" placeholder="Apellido">
-        <input type="text" class="w-100 mx-auto" placeholder="Rut">
-        <input type="text" class="w-100 mx-auto" placeholder="Teléfono">
-        <input type="email" class="w-100 mx-auto" placeholder="Email">
+        <input type="text" id="Nombre" class="w-100 mx-auto" placeholder="Nombre*" required>
+        <input type="text" id="Apellido" class="w-100 mx-auto" placeholder="Apellido*" required>
+        <input type="text" id="Rut" class="w-100 mx-auto input_rut" placeholder="Rut*" required>
+        <input type="text" id="Telefono" class="w-100 mx-auto telefono" placeholder="Teléfono*" required>
+        <input type="email" id="Email" class="w-100 mx-auto" placeholder="Email*" required>
         <label for="mensajeContacto">Mensaje</label>
         <textarea name="mensajeContacto" id="mensajeContacto" cols="30" rows="1"></textarea>
-        <button class="btn text-white bg-dark rounded mx-auto mt-1 btn-enviar">Enviar</button>
+        <button class="btn text-white bg-dark rounded mx-auto mt-1 btn-enviar btn-disabled">Enviar</button>
         <?php echo do_shortcode('[contact-form-7 id="55" title="Formulario de contacto"]'); ?>
     </div>
     <div class="d-flex flex-column align-items-start text-center p-0 col-2 bg-white shadow">

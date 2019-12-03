@@ -57,6 +57,9 @@ if ( ! function_exists('b4st_enqueues') ) {
 		wp_register_script('modernizr',  'https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js', false, '2.8.3', true);
 		wp_enqueue_script('modernizr');
 		
+		wp_register_script('validador-rut', get_template_directory_uri() . '/assets/js/validador-rut.js', false, null);
+		wp_enqueue_script('validador-rut');
+
 		wp_register_script('main', get_template_directory_uri() . '/assets/js/main.js', false, null);
 		wp_enqueue_script('main');
 

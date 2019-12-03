@@ -70,12 +70,22 @@
     transition: .6s ease all;
     position: absolute;
     right:55px;
+    font-size: smaller;
 }
 
 .esconde-formulario{
     position: relative;
     margin-right: -200%;
     transition: .3s ease all;
+}
+
+.input_rut{
+    margin: 5px 0px 0px 0px !important;
+    padding: .5rem 0 !important;
+}
+
+.rut-container{
+    height: 20px !important;
 }
 
 .tituloContacto{
@@ -86,16 +96,11 @@
     transform: rotate(90deg) !important;
 }
 
-label{
-    font-size: smaller;
-}
-
 input{
     border: none !important;
     border-bottom: 1px solid #e3e3e3!important;
-    width: 100%;
+    width: 100% !important;
     height: calc(60% / 5);
-    font-size: smaller;
     margin: 5px auto 0px auto !important;
 }
 
@@ -110,7 +115,18 @@ textarea{
 
 .btn-enviar{
     font-size: smaller;
+    padding: 5px 15px !important;
     margin: 10px auto 0px auto !important;
+}
+
+.btn-disabled{
+    filter: opacity(.5) !important;
+    cursor: no-drop !important;
+}
+
+.rut-container{
+    width: 100%;
+    height: auto;
 }
 
 // CONTENIDO PROYECTO
